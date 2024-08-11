@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Company List</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .table-container {
+            width: 80%;
+            height: 650px;
+            overflow-y: scroll;
+            margin: 0 auto;
+            border-collapse: collapse;
+            position: absolute;
+            top: 11.5%;
+            left: 10%;
+            background-color: rgba(0, 0, 0, 0.529);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+            font-weight: bold;
+        }
+        th, td {
+            border: 2px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #171515;
+            position: sticky;
+            top: 0;
+            z-index: 1; /* Ensure it stays on top */
+        }
+        h1{
+            z-index: 2;
+            position: absolute;
+            font-family: 'Times New Roman', Times, serif;
+            bottom: 90.5%;
+            left: 41%;
+            color: white;
+        }
+        .background{
+            height: 100%;
+            width: 100%;
+            z-index: -2;
+            object-fit: cover;
+            filter: brightness(40%);
+        }
+        .back{
+            color: white;
+            z-index: 1;
+            position: absolute;
+            top: 2%;
+            left: 1%;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back:hover{
+            cursor: pointer;
+        }
+        .table-container::-webkit-scrollbar{
+            width: 8px;
+        }
+        .table-container::-webkit-scrollbar-track{
+            background: rgba(0, 0, 0, 0.227);
+        }
+        .table-container::-webkit-scrollbar-thumb{
+            background: rgba(120, 120, 120, 0.5); /* Color of the scrollbar thumb */
+            border-radius: 4px;
+        }
+        .table-container::-webkit-scrollbar:hover{
+            background: rgba(255, 255, 255, 0.315); /* Color of the scrollbar thumb when hovered */
+        }
+        .description {
+            color: white;
+            z-index: 2;
+            position: absolute;
+            top: 5%;
+            left: 9.9%;
+            width: auto;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 5px;
+            background-color: rgba(240, 248, 255, 0.188);
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 17.5px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Registered Companies</h1>
+
+    <img src=c:\Users\rehen\Downloads\WAD\IMG-20240802-WA0002.jpg class="background" alt="img">
+    <a href="Assignment.html" class="back">Back</a>
+    <p class="description">There are 33 registered companies listed below. The names and contact details of each company, including the CEO's information, are provided for your reference.</p>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>NAME OF COMPANY</th>
+                    <th>NAME OF CEO</th>
+                    <th>EMAIL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Row 1 -->
+                <tr>
+                    <td>1</td>
+                    <td>Satkriya Healthcare Innovations Pvt. Ltd.</td>
+                    <td>Dr. Mohammed Shamnad</td>
+                    <td>ourfamilyclinic@hotmail.com</td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td>2</td>
+                    <td>Green Life Engineering Solutions</td>
+                    <td>Faizal Majeed</td>
+                    <td>faizalmangalasseril@gmail.com</td>
+                </tr>
+                <!-- Row 3 -->
+                <tr>
+                    <td>3</td>
+                    <td>Mad Labs</td>
+                    <td>Ajo John Mathai</td>
+                    <td>ajojohn555@gmail.com</td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td>4</td>
+                    <td>Infinity Lab</td>
+                    <td>Akshay S</td>
+                    <td>sakshay797@gmail.com</td>
+                </tr>
+                <!-- Row 5 -->
+                <tr>
+                    <td>5</td>
+                    <td>Aptinnov Labs Pvt. Ltd.</td>
+                    <td>Ajin Omanakuttan</td>
+                    <td>ajinomanakuttan096@gmail.com</td>
+                </tr>
+                <!-- Row 6 -->
+                <tr>
+                    <td>6</td>
+                    <td>Leopard Tech Labs Pvt. Ltd.</td>
+                    <td>Thomas Varughese</td>
+                    <td>thomasvarughese@amaljyothi.ac.in</td>
+                </tr>
+                <!-- Row 7 -->
+                <tr>
+                    <td>7</td>
+                    <td>Kasperob Robotics Pvt. Ltd.</td>
+                    <td>Githu N S</td>
+                    <td>githuns@gmail.com</td>
+                </tr>
+                <!-- Row 8 -->
+                <tr>
+                    <td>8</td>
+                    <td>Abiam Cloud Solutions</td>
+                    <td>Alex Paul Joseph</td>
+                    <td>alexmukkom94@gmail.com</td>
+                </tr>
+                <!-- Row 9 -->
+                <tr>
+                    <td>9</td>
+                    <td>Tyko</td>
+                    <td>Bobby Isac</td>
+                    <td>bobby@tyko.co</td>
+                </tr>
+                <!-- Row 10 -->
+                <tr>
+                    <td>10</td>
+                    <td>TNS Security Centre</td>
+                    <td>Liyo Paul</td>
+                    <td>liyopaul@mca.ajce.in</td>
+                </tr>
+                <!-- Row 11 -->
+                <tr>
+                    <td>11</td>
+                    <td>Roncyex Ventures</td>
+                    <td>Alexander Francis</td>
+                    <td>roncyex@gmail.com</td>
+                </tr>
+                <!-- Row 12 -->
+                <tr>
+                    <td>12</td>
+                    <td>Sansayu Network</td>
+                    <td>Ashwin Joseph Kurian</td>
+                    <td>ashwinjoseph95@gmail.com</td>
+                </tr>
+                <!-- Row 13 -->
+                <tr>
+                    <td>13</td>
+                    <td>Third Eye Technologies</td>
+                    <td>Shahid Ahammed C A</td>
+                    <td>shahidca300@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Mobeyosoft</td>
+                    <td>Thomas V J</td>
+                    <td>thomasvakanil@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Ithihasa Infosystems</td>
+                    <td>Jins Mathew</td>
+                    <td>jinsmn@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>I-era</td>
+                    <td>Sidharth Mohan Nair</td>
+                    <td>sidharthmohannair@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Suvichaar Marine Products</td>
+                    <td>Suman Sreedharan & Visakh Kumar</td>
+                    <td>suman.mr@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Excel Hvac</td>
+                    <td>Philip</td>
+                    <td>excelairc@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>CubeDST Pvt. Ltd.</td>
+                    <td>Syril James</td>
+                    <td>securiyo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Biz Bot</td>
+                    <td>Vinu</td>
+                    <td>nenainan@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>SeigoTech</td>
+                    <td>Sreerag V</td>
+                    <td>vsreerag@amaljyothi.ac.in</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Bat Brain</td>
+                    <td>Adhil Shah</td>
+                    <td>aadilshah56@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Nostalgic Restaurants</td>
+                    <td>Mohan</td>
+                    <td>sidharthmohannair@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>River Rises</td>
+                    <td>Rex Jovakim Joseph</td>
+                    <td>rexjo3333@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Quadrix CaT Labs</td>
+                    <td>Anu Abraham Mathew</td>
+                    <td>anuabrahammathew@amaljyothi.ac.in</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Buildit</td>
+                    <td>Frank J Jose</td>
+                    <td>frankjjose100@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>Inques Technologies Pvt. Ltd.</td>
+                    <td>Vipin Joseph</td>
+                    <td>vipinjoseph64@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>Prakash Services</td>
+                    <td>Prakash M M	</td>
+                    <td>prakashnair260@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Exsight</td>
+                    <td>Midhun V M</td>
+                    <td>vmmidhunvm@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>Auger India</td>
+                    <td>Jessil Karimalil Jose	</td>
+                    <td>mailstojesil@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>FOAB Solutions Pvt Ltd.</td>
+                    <td>Dr. Sunnichan V George</td>
+                    <td>geosunny@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Blue Steak</td>
+                    <td>Jaison Thomas</td>
+                    <td>jaison@bluesteak.com</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>QKamet</td>
+                    <td>Vinu Sankar</td>
+                    <td>qkamet@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
